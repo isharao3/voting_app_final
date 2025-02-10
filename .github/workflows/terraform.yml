@@ -19,9 +19,9 @@ jobs:
       - name: 'Az CLI login'
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-id: 'Schneider electric'
+          tenant-id: '6e51e1ad-c54b-4b39-b598-0ffe9ae68fef'
+          subscription-id: '73f17119-fa29-451c-929a-d4d5abda14ed'
   
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2.0.2
